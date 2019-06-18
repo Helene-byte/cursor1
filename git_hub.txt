@@ -1,0 +1,29 @@
+//create local repository//git init 
+git status
+//commit// git commit -m "cursor 1st home work"
+
+//create file//touch cursor 160919.txt
+
+/index. Add the files in your new local repository. This stages them for the first commit.// git add . 
+
+git commit
+
+//create branch// git branch -d *.*
+//switch to branch/ git checkout *.*
+//switch to master/ git checkout master
+//merge// git merge *.*
+
+
+//create remote repository//
+
+echo "# cursor1" >> README.md
+git init
+git add README.md
+
+//link remote repository with local one//
+git remote add origin https://github.com/Helene-byte/cursor1.git
+git push -u origin master
+
+
+
+
